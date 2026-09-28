@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NexaGuard Privacy Policy</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; line-height: 1.55; max-width: 42rem; margin: 2rem auto; padding: 0 1.25rem; }
+    h1 { font-size: 1.6rem; margin-bottom: 0.25rem; }
+    .meta { color: #666; margin-bottom: 1.5rem; }
+    h2 { font-size: 1.15rem; margin-top: 1.6rem; }
+    ul { padding-left: 1.2rem; }
+  </style>
+</head>
+<body>
+  <h1>NexaGuard Privacy Policy</h1>
+  <p class="meta">Last updated: 28 September 2026 · Publisher: Données Fotros Inc. (Canada) · App: NexaGuard (com.donneesfotros.nexaguardapp)</p>
+
+  <p>NexaGuard is a privacy-first messaging app from Données Fotros Inc. Conversations are protected by default on your device. This policy describes what the current MVP stores, what stays on the device, and how to contact us.</p>
+
+  <h2>What stays on your device</h2>
+  <ul>
+    <li>Message content stays on the device. It is stored in a SQLCipher database, with keys held in the Android Keystore.</li>
+    <li>The MVP does not include a real multi-device MLS sync server. There is no NexaGuard server that receives your conversations to sync them across devices.</li>
+  </ul>
+  <p>Protection in this build is local encryption on the device. A later release that adds multi-device sync will update this page before that server exists.</p>
+
+  <h2>What we do not collect</h2>
+  <ul>
+    <li>No ads.</li>
+    <li>No analytics SDK is included or required for the MVP.</li>
+    <li>NexaGuard is not a Telegram client and does not use MTProto.</li>
+  </ul>
+  <p>We do not operate a backend that receives your message database.</p>
+
+  <h2>Tools, polls, and forms</h2>
+  <p>Tools, polls, and forms run in a separate process. That process cannot read the message database.</p>
+
+  <h2>Scam checks</h2>
+  <p>Scam checks use on-device heuristics only. The MVP does not send message content to a remote scoring service.</p>
+
+  <h2>What we do not do</h2>
+  <ul>
+    <li>We do not sell your data.</li>
+    <li>We do not use third-party ad networks.</li>
+    <li>We do not build advertising profiles from your conversations.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>NexaGuard is not directed at children under 13. If you are under the age where parental consent is required in your region, use the app only with a parent or guardian’s permission.</p>
+
+  <h2>Data deletion</h2>
+  <p>Clearing app data or uninstalling NexaGuard removes the on-device encrypted message store and the keys the app holds. This MVP does not keep a cloud copy of your chats for us to delete.</p>
+
+  <h2>Contact</h2>
+  <p>Données Fotros Inc., Canada<br />
+  Email: <a href="mailto:s.madkhourian@gmail.com">s.madkhourian@gmail.com</a></p>
+
+  <h2>Changes</h2>
+  <p>We may update this policy. The last-updated date at the top will change when we do. Continued use after an update means you accept the revised policy.</p>
+
+  <p lang="fr"><strong>Français (résumé):</strong> NexaGuard (Données Fotros Inc.) protège les conversations par défaut sur l’appareil. Le MVP n’a pas de serveur de synchronisation MLS multi-appareils : le chiffrement est local (Android Keystore et SQLCipher). Pas de publicité, pas de SDK d’analyse, pas de Telegram ni de MTProto. Les outils, sondages et formulaires tournent dans un processus séparé qui ne peut pas lire la base des messages. La détection d’arnaques reste sur l’appareil. Contact : s.madkhourian@gmail.com. Identifiant : com.donneesfotros.nexaguardapp.</p>
+</body>
+</html>
